@@ -1,0 +1,39 @@
+.container
+{   margin: auto;
+    width: 18rem;
+    height: 25rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+}
+.icons
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: aliceblue !important;
+}
+.fab
+{
+    cursor: pointer;
+}
+.fab:hover{
+    color:aqua
+}
+.profile 
+{
+    width: 8rem;
+    height: 8rem;
+    /* border: 4px solid white; */
+    border-radius: 50%;
+    margin-top:18px ;
+    margin-left: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all .9s;
+}
+.profile > img{
+    width: 100%;
+}
